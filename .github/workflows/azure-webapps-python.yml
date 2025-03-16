@@ -29,7 +29,7 @@ env:
 
 on:
   push:
-    branches: [ "sign-setup" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 permissions:
