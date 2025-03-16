@@ -25,7 +25,6 @@ env:
   
               # set this to the Python version to use
   AZURE_WEBAPP_URL: 'https://sign-sync-service-hbf8fcfwfkhwdse7.centralus-01.azurewebsites.net'
-  AZURE_WEBAPP_PATH: "./publish"
 
 on:
   push:
@@ -90,7 +89,6 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
-          package: ${{env.AZURE_WEBAPP_PATH}}
 
       - name: success
         run: echo "Deployed successfully to ${{ env.AZURE_WEBAPP_URL }}"
