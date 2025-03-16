@@ -21,7 +21,7 @@ name: Build and deploy Sign Sync to Azure Web App
 
 env:
   AZURE_WEBAPP_NAME: sign-sync-service  # set this to the name of your Azure Web App
-  PYTHON_VERSION: '3.13.2'
+  PYTHON_VERSION: '3.9.21'
   
               # set this to the Python version to use
   AZURE_WEBAPP_URL: 'https://sign-sync-service-hbf8fcfwfkhwdse7.centralus-01.azurewebsites.net'
