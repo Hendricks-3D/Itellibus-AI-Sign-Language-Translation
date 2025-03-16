@@ -1,0 +1,12 @@
+argparse
+copy
+csv
+itertools
+Counter
+deque
+cv2
+mediapipe
+numpy
+KeyPointClassifier
+PointHistoryClassifier
+CvFpsCalc
